@@ -11,8 +11,8 @@ const IconRounded = ({backgroundColor, nameicon, sizeIcon, colorIcon}) => {
       style={[
         {
           backgroundColor: backgroundColor,
-          width: sizeIcon * WIDTH * 0.006,
-          height: sizeIcon * WIDTH * 0.006,
+          width: WIDTH * 0.17,
+          height: HEIGHT * 0.076,
           borderRadius: sizeIcon * WIDTH * 0.007,
         },
         Layout.colCenter,
